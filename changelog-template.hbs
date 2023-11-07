@@ -1,10 +1,5 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
 ## Release (1.24) Highlights
 
 This is a very small feature update mostly consisting of community PRs.
@@ -48,20 +43,6 @@ public string File { get; set; } = "";
 public string Folder { get; set; } = "";
 ```
 
-### Added Localization for Traditional Chinese (TW)
-
-@EditorKos contributed a localization for `zh-TW` locale.
-
-### Fixes
-
-- Mod Packs can now use custom `ReleaseMetadataFileName(s)`. (thanks @jroweboy)
-- Mods from GameBanana which specify custom additional contributors/authors no longer breaks mod search.
-  - GameBanana (probably unintentionally) made a change to how one of the fields is returned.
-  - And that broke things... so I added a workaround.
-  - I also need to update the cache server; please give it a moment after the update goes live.
-- Log files no longer incorrectly produce newlines for `Write()` (thanks @gurrenm3)
-
-## Complete Changes
 
 {{#each releases}}
   {{#if href}}
