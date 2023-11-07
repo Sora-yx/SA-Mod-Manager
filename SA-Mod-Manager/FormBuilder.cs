@@ -23,6 +23,7 @@ namespace SAModManager
 {
 	public class FormBuilder
 	{
+
 		public static Thickness GroupMargin = new(0, 0, 0, 15);
 		public static Thickness ElementMargin = new(10, 5, 10, 5);
 
